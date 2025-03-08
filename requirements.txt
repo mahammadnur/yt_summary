@@ -1,0 +1,7 @@
+Flask
+yt-dlp
+googletrans==4.0.0-rc1
+langdetect
+deep-translator
+google-genai
+ffmpeg-python

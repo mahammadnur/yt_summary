@@ -1,0 +1,98 @@
+/* Base styling */
+body {
+    background-color: #181818; /* Neo Black background */
+    color: #ffffff;            /* White text for readability */
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container to center content */
+  .container {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+  }
+  
+  /* Headings with YouTube Red accent */
+  h1, h2 {
+    color: #FF0000;            /* YouTube Red */
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0.5em;
+  }
+  
+  /* Form styling */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2em;
+    background: #282828;       /* Slightly lighter black for form background */
+    padding: 1.5em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Input field styling */
+  input[type="text"] {
+    width: 100%;
+    max-width: 600px;
+    padding: 0.75em;
+    margin-bottom: 1em;
+    border: 2px solid #FF0000; /* Red border */
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 1em;
+    border-radius: 4px;
+    transition: border 0.3s ease;
+  }
+  input[type="text"]:focus {
+    outline: none;
+    border-color: #e60000;
+  }
+  
+  /* Button styling */
+  button {
+    background-color: #FF0000;
+    color: #ffffff;
+    border: none;
+    padding: 0.75em 2em;
+    font-size: 1em;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  button:hover {
+    background-color: #e60000;
+  }
+  
+  /* Flash messages styling */
+  .flash {
+    color: #FF0000;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  
+  /* Summary box styling */
+  .summary {
+    background-color: #282828;
+    border: 1px solid #FF0000;
+    padding: 1em;
+    border-radius: 4px;
+    margin-top: 2em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* List styling for flash messages, if any */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  li {
+    margin: 0.5em 0;
+  }
+  
