@@ -5,3 +5,4 @@ langdetect
 deep-translator
 google-genai
 ffmpeg-python
+gunicorn  
